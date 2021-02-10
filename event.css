@@ -1,0 +1,54 @@
+#container{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: rgb(99, 47, 55);
+     width: 50%;
+    height: 60%;
+    border-radius: 5%;
+
+}
+
+body{
+    background-color: rgb(199, 93, 105);
+}
+
+h1{
+    text-align: center;
+    font-size: 5vh;
+    color: white;
+}
+
+input{
+    padding: 3%;
+    position: absolute;
+    top: auto;
+    left: 34%;
+    text-align: center;
+    font-weight: 700;
+}
+
+#btn{
+    padding: 1% 4%;
+    font-weight: 700;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    transition: 1s ease;
+
+}
+
+#btn:hover{
+    transform: scale(1,1);
+    background-color: rgb(26, 23, 23);
+    color: white;
+}
+
+.list{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-size: 3vh;
+    font-weight: 400;
+    color: white;
+}
